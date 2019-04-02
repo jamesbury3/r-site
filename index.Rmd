@@ -1,6 +1,5 @@
 ---
 title: "Index"
-output: html_document
 knit: (function(input_file, encoding) {
   out_dir <- 'docs';
   rmarkdown::render(input_file,
