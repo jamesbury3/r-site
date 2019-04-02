@@ -10,11 +10,15 @@ knit: (function(input_file, encoding) {
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+```{r, echo = FALSE}
+library(htmlTable)
+```
+
 
 Hello
 
 ```{r, echo=FALSE}
-head(cars)
+htmlTable(head(cars))
 ```
 
 # **A Part**
