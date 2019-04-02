@@ -16,7 +16,7 @@ library(htmlTable)
 
 # **A Part**
 
-stuff is here
+stuff is here.
 
 ```{r, echo=FALSE}
 htmlTable(iris)
