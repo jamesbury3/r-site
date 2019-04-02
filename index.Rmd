@@ -11,16 +11,24 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 ```{r, echo = FALSE}
 library(htmlTable)
+library(ggplot2)
+i = iris
 ```
 
 
-# **A Part**
+# **Test Website**
 
-stuff is here.
+This is a testing website I am using to learn how to create websites with R Markdown
 
 ```{r, echo=FALSE}
 htmlTable(iris)
 ```
+
+```{r, echo = FALSE}
+ggplot(data = i, mapping = aes(x = Sepal.Length,y = Sepal.Width)) + 
+  geom_point()
+```
+
 
 # **Another Part**
 
