@@ -14,15 +14,13 @@ library(htmlTable)
 ```
 
 
-Hello
+# **A Part**
+
+stuff is here
 
 ```{r, echo=FALSE}
 htmlTable(iris)
 ```
-
-# **A Part**
-
-stuff is here
 
 # **Another Part**
 
