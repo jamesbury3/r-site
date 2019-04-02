@@ -8,6 +8,7 @@ title: "About"
 output: 
   html_document:
     toc: false
+    toc_float: false
 ---
 
 ```{r setup, include=FALSE}
