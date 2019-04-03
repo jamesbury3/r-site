@@ -21,7 +21,7 @@ i = iris
 This is a testing website I am using to learn how to create websites with R Markdown
 
 ```{r, echo=FALSE}
-htmlTable(iris)
+htmlTable(head(iris))
 ```
 
 ```{r, echo = FALSE}
